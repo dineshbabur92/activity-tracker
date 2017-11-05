@@ -1,0 +1,21 @@
+body{
+    padding-top: 3em;
+    font-family: "Arial", sans-serif;
+}
+
+#activity-log-form div{
+    padding-bottom: 1em;
+    clear: both;
+}
+
+.label{
+    font-size: .9em;
+}
+
+button{
+    width: 100%;
+}
+
+.alert{
+    margin: 1em;
+}
