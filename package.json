@@ -1,6 +1,6 @@
 {
-  "name": "efas-dashboard",
-  "description": "Reports vehicle check-in data",
+  "name": "activity-tracker",
+  "description": "App for activity logging.",
   "version": "1.0.0",
   "main": "index.js",
   "keywords": [
@@ -31,11 +31,11 @@
     "mocha": "*",
     "nodemon": "^1.11.0"
   },
-  // "scripts": {
-  //   "test": "mocha test.js",
-  //   "watch": "gulp watch",
-  //   "nodemon": "nodemon index.js"
-  // },
+  "scripts": {
+    "test": "mocha test.js",
+    "watch": "gulp watch",
+    "nodemon": "nodemon index.js"
+  },
   "engines": {
     "node": "4.1.1"
   }
