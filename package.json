@@ -1,6 +1,12 @@
 {
   "name": "efas-dashboard",
   "description": "Reports vehicle check-in data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "activity", "tracker"
+  ],
+  "author": "Dinesh",
   "dependencies": {
     "body-parser": "*",
     "express": "*",
@@ -25,9 +31,12 @@
     "mocha": "*",
     "nodemon": "^1.11.0"
   },
-  "scripts": {
-    "test": "mocha test.js",
-    "watch": "gulp watch",
-    "nodemon": "nodemon index.js"
+  // "scripts": {
+  //   "test": "mocha test.js",
+  //   "watch": "gulp watch",
+  //   "nodemon": "nodemon index.js"
+  // },
+  "engines": {
+    "node": "4.1.1"
   }
 }
