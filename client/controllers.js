@@ -24,8 +24,10 @@ activityTracker.controller("homeController",["$scope", "$log", "$http", function
 
     $scope.changeUnit = function(unit){
     	logItem.unit=unit;
-    	if(logItem.unit==='other')
+    	if(logItem.unit==='other'){
     		$scope.otherUnitField = true;
+    		$scope.logItem.unit = "";
+		}
     	else
     		$scope.otherUnitField = false;
     	console.log($scope.otherUnitField);
@@ -46,5 +48,6 @@ activityTracker.controller("homeController",["$scope", "$log", "$http", function
 			$log.log(error);
 		});
     }
+    $( "#date" ).datepicker();
 
 }]);

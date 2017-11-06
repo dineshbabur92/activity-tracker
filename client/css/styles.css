@@ -1,11 +1,37 @@
 body{
-    padding-top: 3em;
-    font-family: "Arial", sans-serif;
+    /*padding-top: 3em;*/
+    /*font-family: "Snell Roundhand", cursive;*/
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content : center;
+    background-color: lightgray;
+
+}
+
+/*div#header{
+    width: 100%;
+    padding: .1em;
+    background-color: lightgreen;
+    color: white;
+}*/
+#activity-log-form{
+    padding: 1em;
+
+    background-color: white;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 #activity-log-form div{
-    padding-bottom: 1em;
-    clear: both;
+    display: flex;
+}
+
+#activity-log-form div *{
+    order: 1;
+    margin: .5em;
 }
 
 .label{
@@ -17,5 +43,5 @@ button{
 }
 
 .alert{
-    margin: 1em;
+    margin-top: 1em;
 }
