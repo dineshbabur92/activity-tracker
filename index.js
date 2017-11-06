@@ -20,7 +20,7 @@ process.on('uncaughtException', function(err) {
   console.log('Caught exception: ' + err);
 }); 
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 console.log("app listening in 3000!");
 
 
